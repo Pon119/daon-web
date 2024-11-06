@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     // KAKAO MAP
     const kakaoLoad = document.createElement("script");
-    kakaoLoad.src = "//dapi.kakao.com/v2/maps/sdk.js?appkey=968c94e07185af1f9c1b59c3f1b85383"
+    kakaoLoad.src = "//dapi.kakao.com/v2/maps/sdk.js?appkey=5db59432c63328e5bb694f4d037a357e"
     document.head.appendChild(kakaoLoad);
 
     const mapContainer = document.getElementById('map'); // 지도를 표시할 div
